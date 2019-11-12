@@ -82,6 +82,10 @@
   font-size: 20px;
 }
 
+a:visited span{
+  color: unset !important;
+}
+
 .profile-picture-about {
   display: none;
 }
