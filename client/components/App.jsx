@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Header from './header/Header.jsx';
 
 class App extends React.Component {
   render () {
@@ -10,9 +11,8 @@ class App extends React.Component {
           <span className="navbar-item navbar-item-dimensions clickable">Work</span>
           <span className="navbar-item navbar-item-dimensions clickable">Contact</span>
         </div>
-        <div className="header-header">
-          <canvas/>
-        </div>
+
+        <Header/>
         
         <div className='home-section container-about'>
           <img className="profile-picture-about" alt="profile-pic" src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Alpaca_headshot.jpg/520px-Alpaca_headshot.jpg' />
@@ -177,7 +177,7 @@ class App extends React.Component {
           
             <a className="contact-item" href="https://www.linkedin.com/in/TEMP_TEMP/" target="_blank" rel="me noopener noreferrer">
               <span className="contact-item-icon contact-item-icon-margin">
-               <i className={"fab fa-linkedin-in"} aria-hidden="true"></i>
+                <i className={"fab fa-linkedin-in"} aria-hidden="true"></i>
               </span> 
               <span className="contact-item-text">{""}</span>
             </a>
