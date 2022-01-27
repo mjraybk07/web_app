@@ -23,7 +23,7 @@
     "express": "^4.17.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "three": "^0.108.0",
+    "three": "^0.137.0",
     "webpack": "2.6.1"
   },
   "devDependencies": {
